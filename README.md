@@ -1,8 +1,8 @@
 # Vehicle CO₂ Emissions Prediction
 
-**Machine learning regression project | Python · scikit-learn · XGBoost**
+**Machine learning regression project**
 
-Predict vehicle CO₂ emissions (g/km) from vehicle specifications **without using fuel-consumption measurements as model inputs**. This project explores the data, engineers features, tunes and compares four regression models, and evaluates them on a held-out test set.
+Predict vehicle CO₂ emissions (g/km) from vehicle specifications **without using fuel-consumption measurements as model inputs**. This project explores the data, feature engineering, hyperparameter tuning, compares four regression models, and evaluates them on a test set.
 
 **[Explore the notebook](vehicle_co2_prediction.ipynb)**
 
