@@ -35,8 +35,6 @@ The processed dataset in the saved run contains **7,385 rows**, divided into **5
 
 ## Results
 
-**Held-out test set** (metrics from the outputs saved in `vehicle_co2_prediction.ipynb`):
-
 | Model | MAE (g/km) ↓ | RMSE (g/km) ↓ | R² ↑ |
 |---|---:|---:|---:|
 | XGBoost | 11.217 | 15.405 | 0.9296 |
