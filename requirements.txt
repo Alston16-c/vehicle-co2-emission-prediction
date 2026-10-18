@@ -1,0 +1,11 @@
+# Packages imported and used by vehicle_co2_prediction.ipynb
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+xgboost
+kagglehub
+
+# Notebook environment for running the .ipynb locally
+notebook
