@@ -20,8 +20,6 @@ Fuel-consumption measurements are closely related to vehicle CO₂ emissions. In
 
 **Source:** [CO2 Emission of Vehicles in Canada — Kaggle (isaacfemiogunniyi)](https://www.kaggle.com/datasets/isaacfemiogunniyi/co2-emission-of-vehicles-in-canada)
 
-The notebook downloads the dataset directly using `kagglehub` and reads `CO2 Emissions_Canada.csv`. No manual CSV placement is necessary, although an internet connection is needed for the initial download.
-
 The processed dataset in the saved run contains **7,385 rows**, divided into **5,169 training**, **1,108 validation**, and **1,108 test** examples.
 
 ## Methodology
@@ -49,8 +47,6 @@ In the saved run, validation tuning selected:
 - **XGBoost:** learning rate `0.2`, maximum depth `6`, with early stopping
 - **Decision Tree:** maximum depth `19`
 - **Random Forest:** `50` trees
-
-These are results for this particular split and experiment; they do not establish real-world on-road accuracy.
 
 ## Limitations
 
