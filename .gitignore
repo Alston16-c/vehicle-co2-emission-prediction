@@ -1,0 +1,28 @@
+# Jupyter temporary files (keep .ipynb notebooks tracked)
+.ipynb_checkpoints/
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Local secrets and environment settings
+.env
+.env.*
+!.env.example
+
+# Generated model artifacts from the notebook
+*.pkl
+
+# Local dataset copies (downloaded automatically via kagglehub)
+*.csv
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
