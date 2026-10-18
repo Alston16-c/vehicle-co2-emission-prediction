@@ -4,7 +4,7 @@
 
 Predict vehicle CO₂ emissions (g/km) from vehicle specifications **without using fuel-consumption measurements as model inputs**. This project explores the data, engineers features, tunes and compares four regression models, and evaluates them on a held-out test set.
 
-**[Explore the notebook](vehicle_co2_prediction.ipynb)** · **[View the companion Streamlit app](https://machine-learning-co2-vehicle-prediction.streamlit.app/)**
+**[Explore the notebook](vehicle_co2_prediction.ipynb)**
 
 ## Project overview
 
