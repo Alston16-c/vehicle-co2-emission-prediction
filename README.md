@@ -33,8 +33,6 @@ The processed dataset in the saved run contains **7,385 rows**, divided into **5
 5. **Model tuning:** use validation RMSE to select Decision Tree depth, Random Forest tree count, and XGBoost learning rate / maximum depth. XGBoost also uses early stopping (20 rounds).
 6. **Evaluation:** compare the four fitted models on the held-out test set and inspect actual-versus-predicted plots and residuals.
 
-> **Feature-engineering caveat:** The vehicle-class weights are manually chosen estimates used as a numeric proxy for class, **not measured vehicle weights**. They should not be interpreted as ground-truth weight data.
-
 ## Results
 
 **Held-out test set** (metrics from the outputs saved in `vehicle_co2_prediction.ipynb`):
